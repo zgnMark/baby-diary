@@ -26,7 +26,7 @@ jobs:
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          accountId: 'a6255ef00f4b0e4a50a4442702eb31f2'
           projectName: baby-diary
           directory: dist
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
